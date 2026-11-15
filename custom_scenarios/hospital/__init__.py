@@ -1,0 +1,1 @@
+from custom_scenarios.hospital import hospital_scenario

@@ -1,0 +1,677 @@
+[
+  {
+    "scenario_idx": 1,
+    "scenario_name": "irosasl1",
+    "map_name": "asl",
+    "start": [
+      1.3,
+      -2.62
+    ],
+    "goal": [
+      -6.65,
+      -2.64
+    ],
+    "humans": 26,
+    "steps": 146,
+    "initial_dist": 7.96,
+    "min_dist": 6.01,
+    "dist_navigated": 1.95,
+    "goal_reached": false,
+    "total_reward": 0.0,
+    "elapsed_sec": 10.22,
+    "video_path": "deliverables/existing_scenarios/scenario_01_irosasl1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_01.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 2,
+    "scenario_name": "irosasl2",
+    "map_name": "asl",
+    "start": [
+      -10.36,
+      -10.03
+    ],
+    "goal": [
+      5.12,
+      5.02
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 21.6,
+    "min_dist": 18.7,
+    "dist_navigated": 2.9,
+    "goal_reached": false,
+    "total_reward": -0.062,
+    "elapsed_sec": 5.93,
+    "video_path": "deliverables/existing_scenarios/scenario_02_irosasl2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_02.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 3,
+    "scenario_name": "irosasl3",
+    "map_name": "asl",
+    "start": [
+      -9.3,
+      -11.24
+    ],
+    "goal": [
+      5.17,
+      5.24
+    ],
+    "humans": 19,
+    "steps": 150,
+    "initial_dist": 21.92,
+    "min_dist": 18.81,
+    "dist_navigated": 3.11,
+    "goal_reached": false,
+    "total_reward": -0.061,
+    "elapsed_sec": 11.34,
+    "video_path": "deliverables/existing_scenarios/scenario_03_irosasl3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_03.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl3_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 4,
+    "scenario_name": "irosasl4",
+    "map_name": "asl",
+    "start": [
+      4.96,
+      -6.51
+    ],
+    "goal": [
+      5.04,
+      1.6
+    ],
+    "humans": 8,
+    "steps": 150,
+    "initial_dist": 8.11,
+    "min_dist": 4.88,
+    "dist_navigated": 3.23,
+    "goal_reached": false,
+    "total_reward": 0.001,
+    "elapsed_sec": 8.58,
+    "video_path": "deliverables/existing_scenarios/scenario_04_irosasl4.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_04.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl4_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 5,
+    "scenario_name": "irosasl5",
+    "map_name": "asl",
+    "start": [
+      -6.31,
+      -11.43
+    ],
+    "goal": [
+      -6.43,
+      6.29
+    ],
+    "humans": 9,
+    "steps": 150,
+    "initial_dist": 17.72,
+    "min_dist": 14.55,
+    "dist_navigated": 3.17,
+    "goal_reached": false,
+    "total_reward": -0.03,
+    "elapsed_sec": 7.62,
+    "video_path": "deliverables/existing_scenarios/scenario_05_irosasl5.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_05.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl5_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 6,
+    "scenario_name": "irosasl6",
+    "map_name": "asl",
+    "start": [
+      -9.3,
+      -11.24
+    ],
+    "goal": [
+      5.17,
+      5.24
+    ],
+    "humans": 9,
+    "steps": 150,
+    "initial_dist": 21.92,
+    "min_dist": 18.79,
+    "dist_navigated": 3.13,
+    "goal_reached": false,
+    "total_reward": -0.057,
+    "elapsed_sec": 8.29,
+    "video_path": "deliverables/existing_scenarios/scenario_06_irosasl6.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_06.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl6_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 7,
+    "scenario_name": "irosasl_office_j1",
+    "map_name": "asl_office_j",
+    "start": [
+      -21.41,
+      -4.02
+    ],
+    "goal": [
+      -24.37,
+      3.23
+    ],
+    "humans": 15,
+    "steps": 150,
+    "initial_dist": 7.83,
+    "min_dist": 5.7,
+    "dist_navigated": 2.13,
+    "goal_reached": false,
+    "total_reward": 0.093,
+    "elapsed_sec": 9.17,
+    "video_path": "deliverables/existing_scenarios/scenario_07_irosasl_office_j1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_07.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 8,
+    "scenario_name": "irosasl_office_j2",
+    "map_name": "asl_office_j",
+    "start": [
+      -21.53,
+      -3.5
+    ],
+    "goal": [
+      13.51,
+      7.39
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 36.69,
+    "min_dist": 33.56,
+    "dist_navigated": 3.12,
+    "goal_reached": false,
+    "total_reward": -0.091,
+    "elapsed_sec": 7.64,
+    "video_path": "deliverables/existing_scenarios/scenario_08_irosasl_office_j2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_08.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 9,
+    "scenario_name": "irosasl_office_j3",
+    "map_name": "asl_office_j",
+    "start": [
+      5.06,
+      -1.09
+    ],
+    "goal": [
+      -2.87,
+      6.11
+    ],
+    "humans": 10,
+    "steps": 150,
+    "initial_dist": 10.71,
+    "min_dist": 7.8,
+    "dist_navigated": 2.92,
+    "goal_reached": false,
+    "total_reward": -0.008,
+    "elapsed_sec": 10.48,
+    "video_path": "deliverables/existing_scenarios/scenario_09_irosasl_office_j3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_09.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j3_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 10,
+    "scenario_name": "irosasl_office_j4",
+    "map_name": "asl_office_j",
+    "start": [
+      -3.55,
+      -1.53
+    ],
+    "goal": [
+      5.42,
+      -0.57
+    ],
+    "humans": 8,
+    "steps": 150,
+    "initial_dist": 9.02,
+    "min_dist": 5.93,
+    "dist_navigated": 3.09,
+    "goal_reached": false,
+    "total_reward": -0.005,
+    "elapsed_sec": 9.23,
+    "video_path": "deliverables/existing_scenarios/scenario_10_irosasl_office_j4.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_10.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j4_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 11,
+    "scenario_name": "irosasl_office_j5",
+    "map_name": "asl_office_j",
+    "start": [
+      -22.69,
+      -3.98
+    ],
+    "goal": [
+      1.18,
+      -1.05
+    ],
+    "humans": 7,
+    "steps": 150,
+    "initial_dist": 24.04,
+    "min_dist": 21.45,
+    "dist_navigated": 2.59,
+    "goal_reached": false,
+    "total_reward": -0.102,
+    "elapsed_sec": 10.01,
+    "video_path": "deliverables/existing_scenarios/scenario_11_irosasl_office_j5.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_11.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j5_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 12,
+    "scenario_name": "irosasl_office_j6",
+    "map_name": "asl_office_j",
+    "start": [
+      -21.65,
+      -3.33
+    ],
+    "goal": [
+      13.81,
+      7.07
+    ],
+    "humans": 6,
+    "steps": 150,
+    "initial_dist": 36.96,
+    "min_dist": 34.7,
+    "dist_navigated": 2.26,
+    "goal_reached": false,
+    "total_reward": -0.1,
+    "elapsed_sec": 8.08,
+    "video_path": "deliverables/existing_scenarios/scenario_12_irosasl_office_j6.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_12.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosasl_office_j6_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 13,
+    "scenario_name": "irosunity_scene_map1",
+    "map_name": "unity_scene_map",
+    "start": [
+      5.16,
+      9.35
+    ],
+    "goal": [
+      -4.12,
+      9.57
+    ],
+    "humans": 17,
+    "steps": 150,
+    "initial_dist": 9.28,
+    "min_dist": 6.04,
+    "dist_navigated": 3.24,
+    "goal_reached": false,
+    "total_reward": 0.022,
+    "elapsed_sec": 10.33,
+    "video_path": "deliverables/existing_scenarios/scenario_13_irosunity_scene_map1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_13.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 14,
+    "scenario_name": "irosunity_scene_map2",
+    "map_name": "unity_scene_map",
+    "start": [
+      1.03,
+      -8.8
+    ],
+    "goal": [
+      -17.44,
+      5.5
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 23.36,
+    "min_dist": 20.29,
+    "dist_navigated": 3.07,
+    "goal_reached": false,
+    "total_reward": -0.011,
+    "elapsed_sec": 4.88,
+    "video_path": "deliverables/existing_scenarios/scenario_14_irosunity_scene_map2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_14.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 15,
+    "scenario_name": "irosunity_scene_map3",
+    "map_name": "unity_scene_map",
+    "start": [
+      3.67,
+      8.65
+    ],
+    "goal": [
+      5.64,
+      -8.55
+    ],
+    "humans": 17,
+    "steps": 150,
+    "initial_dist": 17.32,
+    "min_dist": 14.09,
+    "dist_navigated": 3.23,
+    "goal_reached": false,
+    "total_reward": -0.02,
+    "elapsed_sec": 8.3,
+    "video_path": "deliverables/existing_scenarios/scenario_15_irosunity_scene_map3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_15.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map3_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 16,
+    "scenario_name": "irosunity_scene_map4",
+    "map_name": "unity_scene_map",
+    "start": [
+      -0.07,
+      0.27
+    ],
+    "goal": [
+      -16.96,
+      0.4
+    ],
+    "humans": 8,
+    "steps": 150,
+    "initial_dist": 16.88,
+    "min_dist": 13.64,
+    "dist_navigated": 3.24,
+    "goal_reached": false,
+    "total_reward": 0.015,
+    "elapsed_sec": 6.23,
+    "video_path": "deliverables/existing_scenarios/scenario_16_irosunity_scene_map4.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_16.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map4_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 17,
+    "scenario_name": "irosunity_scene_map5",
+    "map_name": "unity_scene_map",
+    "start": [
+      -3.69,
+      -8.23
+    ],
+    "goal": [
+      -3.53,
+      9.11
+    ],
+    "humans": 7,
+    "steps": 150,
+    "initial_dist": 17.34,
+    "min_dist": 14.1,
+    "dist_navigated": 3.24,
+    "goal_reached": false,
+    "total_reward": -0.022,
+    "elapsed_sec": 6.71,
+    "video_path": "deliverables/existing_scenarios/scenario_17_irosunity_scene_map5.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_17.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map5_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 18,
+    "scenario_name": "irosunity_scene_map6",
+    "map_name": "unity_scene_map",
+    "start": [
+      5.01,
+      -0.26
+    ],
+    "goal": [
+      -17.99,
+      -0.23
+    ],
+    "humans": 14,
+    "steps": 150,
+    "initial_dist": 23.0,
+    "min_dist": 19.76,
+    "dist_navigated": 3.24,
+    "goal_reached": false,
+    "total_reward": -0.011,
+    "elapsed_sec": 7.36,
+    "video_path": "deliverables/existing_scenarios/scenario_18_irosunity_scene_map6.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_18.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/irosunity_scene_map6_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 19,
+    "scenario_name": "rlasl1",
+    "map_name": "asl",
+    "start": [
+      -3.93,
+      -4.14
+    ],
+    "goal": [
+      -1.23,
+      -1.29
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 3.93,
+    "min_dist": 0.66,
+    "dist_navigated": 3.26,
+    "goal_reached": false,
+    "total_reward": 0.002,
+    "elapsed_sec": 6.59,
+    "video_path": "deliverables/existing_scenarios/scenario_19_rlasl1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_19.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 20,
+    "scenario_name": "rlasl2",
+    "map_name": "asl",
+    "start": [
+      -8.39,
+      -4.93
+    ],
+    "goal": [
+      -7.11,
+      -8.08
+    ],
+    "humans": 0,
+    "steps": 142,
+    "initial_dist": 3.39,
+    "min_dist": 0.51,
+    "dist_navigated": 2.88,
+    "goal_reached": true,
+    "total_reward": 95.186,
+    "elapsed_sec": 6.49,
+    "video_path": "deliverables/existing_scenarios/scenario_20_rlasl2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_20.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 21,
+    "scenario_name": "rlasl3",
+    "map_name": "asl",
+    "start": [
+      -0.2,
+      -1.88
+    ],
+    "goal": [
+      -3.44,
+      -3.35
+    ],
+    "humans": 9,
+    "steps": 150,
+    "initial_dist": 3.56,
+    "min_dist": 2.93,
+    "dist_navigated": 0.63,
+    "goal_reached": false,
+    "total_reward": 0.007,
+    "elapsed_sec": 8.44,
+    "video_path": "deliverables/existing_scenarios/scenario_21_rlasl3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_21.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl3_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 22,
+    "scenario_name": "rlasl_office_j1",
+    "map_name": "asl_office_j",
+    "start": [
+      -21.03,
+      -3.95
+    ],
+    "goal": [
+      -21.76,
+      -1.34
+    ],
+    "humans": 0,
+    "steps": 101,
+    "initial_dist": 2.71,
+    "min_dist": 0.52,
+    "dist_navigated": 2.2,
+    "goal_reached": true,
+    "total_reward": 96.619,
+    "elapsed_sec": 5.8,
+    "video_path": "deliverables/existing_scenarios/scenario_22_rlasl_office_j1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_22.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl_office_j1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 23,
+    "scenario_name": "rlasl_office_j2",
+    "map_name": "asl_office_j",
+    "start": [
+      -22.79,
+      -0.26
+    ],
+    "goal": [
+      -22.67,
+      3.38
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 3.64,
+    "min_dist": 2.01,
+    "dist_navigated": 1.63,
+    "goal_reached": false,
+    "total_reward": 0.103,
+    "elapsed_sec": 8.09,
+    "video_path": "deliverables/existing_scenarios/scenario_23_rlasl_office_j2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_23.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl_office_j2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 24,
+    "scenario_name": "rlasl_office_j3",
+    "map_name": "asl_office_j",
+    "start": [
+      -21.05,
+      -4.3
+    ],
+    "goal": [
+      -21.22,
+      -2.08
+    ],
+    "humans": 7,
+    "steps": 150,
+    "initial_dist": 2.23,
+    "min_dist": 1.69,
+    "dist_navigated": 0.54,
+    "goal_reached": false,
+    "total_reward": 0.095,
+    "elapsed_sec": 9.16,
+    "video_path": "deliverables/existing_scenarios/scenario_24_rlasl_office_j3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_24.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlasl_office_j3_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 25,
+    "scenario_name": "rlunity_scene_map1",
+    "map_name": "unity_scene_map",
+    "start": [
+      2.88,
+      0.41
+    ],
+    "goal": [
+      -0.91,
+      0.3
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 3.79,
+    "min_dist": 0.52,
+    "dist_navigated": 3.26,
+    "goal_reached": false,
+    "total_reward": -0.001,
+    "elapsed_sec": 4.97,
+    "video_path": "deliverables/existing_scenarios/scenario_25_rlunity_scene_map1.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_25.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlunity_scene_map1_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 26,
+    "scenario_name": "rlunity_scene_map2",
+    "map_name": "unity_scene_map",
+    "start": [
+      0.62,
+      1.39
+    ],
+    "goal": [
+      1.11,
+      5.25
+    ],
+    "humans": 0,
+    "steps": 150,
+    "initial_dist": 3.9,
+    "min_dist": 3.08,
+    "dist_navigated": 0.82,
+    "goal_reached": false,
+    "total_reward": 0.006,
+    "elapsed_sec": 4.92,
+    "video_path": "deliverables/existing_scenarios/scenario_26_rlunity_scene_map2.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_26.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlunity_scene_map2_screenshot.png",
+    "status": "PASS"
+  },
+  {
+    "scenario_idx": 27,
+    "scenario_name": "rlunity_scene_map3",
+    "map_name": "unity_scene_map",
+    "start": [
+      4.51,
+      1.9
+    ],
+    "goal": [
+      1.44,
+      -0.63
+    ],
+    "humans": 9,
+    "steps": 150,
+    "initial_dist": 3.99,
+    "min_dist": 2.9,
+    "dist_navigated": 1.09,
+    "goal_reached": false,
+    "total_reward": -0.013,
+    "elapsed_sec": 7.11,
+    "video_path": "deliverables/existing_scenarios/scenario_27_rlunity_scene_map3.mp4",
+    "video_standard": "deliverables/existing_scenarios/scenario_27.mp4",
+    "screenshot_path": "deliverables/screenshots/existing_scenarios/rlunity_scene_map3_screenshot.png",
+    "status": "PASS"
+  }
+]

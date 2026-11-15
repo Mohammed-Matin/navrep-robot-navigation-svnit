@@ -1,0 +1,1 @@
+from custom_scenarios.shopping_mall import shopping_mall_scenario

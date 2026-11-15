@@ -1,0 +1,404 @@
+<USER_REQUEST>
+/goal # ROLE
+Act as a senior Robotics Software Engineer, Linux System Administrator, Python Developer, and QA Engineer.
+
+Your responsibility is to COMPLETE my SVNIT CS359 Artificial Intelligence for Robotics project assignment, not just explain how to complete it.
+
+You have access to my local development environment and connected GitHub account. Use them to perform the actual work.
+
+# PROJECT
+NavRep – Robot Navigation and Simulation
+
+Official repository:
+https://github.com/ethz-asl/navrep
+
+Institution: SVNIT Surat
+Department: Computer Science and Engineering
+Subject: CS359 – Artificial Intelligence for Robotics
+
+# PRIMARY OBJECTIVE
+
+Complete all three assignment tasks:
+
+1. Clone, install, configure, and successfully execute NavRep.
+2. Run and record ALL existing simulation scenarios.
+3. Develop multiple original custom simulation scenarios with modified robot starting and goal positions, execute them, and record videos.
+
+Produce every required submission deliverable.
+
+---
+
+# PHASE 1: ENVIRONMENT INSPECTION
+
+Before installing anything:
+
+1. Inspect the host operating system and its version.
+2. Check CPU architecture, RAM, available storage, and GPU availability.
+3. Check installed Python versions.
+4. Check pip, Git, virtualenv, ROS, and other robotics dependencies.
+5. Check whether a graphical display is available for simulation rendering and screen recording.
+6. Inspect the official NavRep repository's README, requirements.txt, setup.py, installation scripts, and source code.
+
+IMPORTANT:
+- The official repository specifies Python 3.6.
+- Gym 0.15.7.
+- Keras 2.3.1.
+- Check all other dependency requirements from the actual repository.
+- Do not arbitrarily upgrade dependencies.
+- Do not assume modern Python versions will work.
+
+Determine the most reliable compatible environment.
+
+If the current operating system is incompatible, investigate using Ubuntu 20.04 through a VM, Docker, or another suitable isolated environment.
+
+Do not damage my existing Python installations or system packages.
+
+# PHASE 2: GITHUB REPOSITORY
+
+Create a new public GitHub repository through my connected GitHub account.
+
+Suggested repository name:
+
+navrep-robot-navigation-svnit
+
+Repository requirements:
+
+1. Clone the original ETH Zurich NavRep repository.
+2. Preserve the original source code and license.
+3. Add our modifications without unnecessarily changing the original implementation.
+4. Initialize Git properly.
+5. Create meaningful commits.
+6. Push the completed project to my GitHub account.
+7. Include proper attribution to ETH Zurich and original authors.
+
+Do not push virtual environments, caches, unnecessary datasets, or large generated files.
+
+# PHASE 3: ENVIRONMENT SETUP
+
+Create an isolated virtual environment.
+
+Requirements:
+
+1. Install the correct Python interpreter.
+2. Create a virtual environment using that interpreter.
+3. Activate the environment.
+4. Install compatible pip/setuptools/wheel versions if necessary.
+5. Install all required dependencies.
+6. Install the specific versions required by NavRep.
+7. Configure ROS dependencies if required by the selected simulation components.
+8. Verify imports and package compatibility.
+9. Verify that the simulator actually launches.
+
+Investigate and resolve dependency conflicts.
+
+Document every installation command.
+
+Never report installation as successful without actually testing it.
+
+Create:
+- requirements-pinned.txt
+- environment information
+- setup.sh
+- run.sh
+
+Make the setup reproducible.
+
+# PHASE 4: EXISTING SCENARIO TESTING
+
+Inspect the original repository and identify EVERY existing simulation scenario.
+
+Do not assume the number of scenarios.
+
+Create an inventory containing:
+
+- Scenario name.
+- Environment used.
+- Robot configuration.
+- Starting position.
+- Goal position.
+- Obstacles and pedestrians.
+- Expected navigation behaviour.
+
+Run every scenario individually.
+
+For each scenario:
+
+1. Launch the simulation.
+2. Verify that the robot appears correctly.
+3. Verify navigation functionality.
+4. Observe obstacle avoidance.
+5. Check whether the robot reaches its goal.
+6. Identify failures or unexpected behaviour.
+7. Record the simulation.
+
+Create a separate video for each existing scenario.
+
+Videos must visibly demonstrate robot movement, navigation, and obstacle avoidance.
+
+Use OBS, FFmpeg, or another appropriate recording method.
+
+If the environment is headless, configure a suitable virtual display or rendering solution.
+
+Do not generate fake simulation videos or use static images as substitutes.
+
+# PHASE 5: CUSTOM SCENARIO DEVELOPMENT
+
+Develop at least THREE meaningful custom simulation scenarios.
+
+Use the existing NavRep architecture and supported environment configurations.
+
+Every custom scenario MUST modify:
+
+- Robot starting position.
+- Robot goal position.
+
+You may additionally modify:
+- Obstacle positions.
+- Environment layout.
+- Number of obstacles.
+- Pedestrian movement.
+- Navigation difficulty.
+- Other supported environment parameters.
+
+Suggested scenarios:
+
+SCENARIO 1: Hospital Assistance Robot
+A robot navigates hospital corridors, avoiding obstacles and reaching a designated destination.
+
+SCENARIO 2: Warehouse Navigation Robot
+A robot navigates between storage shelves, avoiding obstacles while reaching its assigned destination.
+
+SCENARIO 3: Shopping Mall Assistance Robot
+A robot navigates through a crowded shopping environment, avoiding pedestrians and obstacles while reaching its destination.
+
+IMPORTANT:
+These are conceptual requirements, not permission to invent unsupported simulation features.
+
+Implement scenarios using capabilities that actually exist in NavRep.
+
+If dynamic pedestrians cannot be implemented directly, use the simulator's supported obstacle or agent mechanisms and clearly document the implementation.
+
+For each custom scenario:
+
+1. Implement the environment modifications.
+2. Configure a unique starting position.
+3. Configure a unique goal position.
+4. Execute the simulation.
+5. Verify robot navigation.
+6. Record the complete simulation video.
+7. Capture useful screenshots.
+8. Document the scenario and its modifications.
+
+Keep custom scenario configurations separate and organized.
+
+# PHASE 6: TESTING AND VALIDATION
+
+Perform systematic testing.
+
+Check:
+
+- Environment installation.
+- Dependency compatibility.
+- Simulator startup.
+- Existing scenario execution.
+- Custom scenario execution.
+- Robot movement.
+- Obstacle avoidance.
+- Goal-reaching behaviour.
+- Recording functionality.
+
+Maintain a testing report.
+
+For every test, record:
+- Test name.
+- Expected result.
+- Actual result.
+- PASS / FAIL.
+- Observations.
+
+Never mark a failed or unexecuted test as PASS.
+
+# PHASE 7: DOCUMENTATION
+
+Prepare a professional README.md.
+
+It MUST include:
+
+1. Project introduction.
+2. Project objectives.
+3. Original NavRep repository reference.
+4. System specifications.
+5. Operating system and version.
+6. Python version.
+7. Software requirements.
+8. Dependency versions.
+9. Virtual environment creation.
+10. Complete installation commands.
+11. Repository structure.
+12. Instructions to execute NavRep.
+13. Instructions to run every existing scenario.
+14. Custom scenario descriptions.
+15. Modifications made to original source code.
+16. Challenges and errors encountered.
+17. Solutions to those errors.
+18. Simulation screenshots.
+19. Simulation video references.
+20. Testing results.
+21. References and acknowledgements.
+
+Also create:
+
+docs/
+    installation.md
+    existing_scenarios.md
+    custom_scenarios.md
+    testing_report.md
+
+Create a separate brief description for each custom scenario.
+
+Documentation must reflect actual implementation and test results.
+
+# PHASE 8: VIDEO RECORDING AND EVIDENCE
+
+Organize recordings as follows:
+
+deliverables/
+    existing_scenarios/
+        scenario_01.mp4
+        scenario_02.mp4
+
+    custom_scenarios/
+        hospital_robot.mp4
+        warehouse_robot.mp4
+        shopping_mall_robot.mp4
+
+    screenshots/
+        ...
+
+Every video must:
+- Show the actual running simulator.
+- Clearly demonstrate robot navigation.
+- Show obstacle avoidance wherever applicable.
+- Have sufficient duration to demonstrate meaningful behaviour.
+- Be playable and non-corrupted.
+
+Create a video_index.md describing every recording.
+
+Do not claim a video exists unless it has actually been recorded and verified.
+
+# PHASE 9: FINAL SUBMISSION PACKAGE
+
+Prepare the following structure:
+
+NavRep-SVNIT/
+│
+├── README.md
+├── requirements-pinned.txt
+├── setup.sh
+├── run.sh
+│
+├── navrep/
+│   └── Original and modified source code
+│
+├── custom_scenarios/
+│   ├── hospital/
+│   ├── warehouse/
+│   └── shopping_mall/
+│
+├── docs/
+│   ├── installation.md
+│   ├── existing_scenarios.md
+│   ├── custom_scenarios.md
+│   └── testing_report.md
+│
+├── deliverables/
+│   ├── existing_scenarios/
+│   ├── custom_scenarios/
+│   ├── screenshots/
+│   └── video_index.md
+│
+└── LICENSE_AND_ATTRIBUTION.md
+
+Adapt this structure to the actual NavRep repository. Do not duplicate the entire upstream source unnecessarily.
+
+Create a ZIP file:
+
+NavRep-SVNIT-Submission.zip
+
+The ZIP must contain:
+- Complete modified source code.
+- Custom scenario implementations.
+- Brief custom scenario descriptions.
+- Required documentation.
+
+Include videos in the submission package if the resulting size is manageable. Otherwise, keep the videos in a separate clearly organized submission folder and provide their paths.
+
+Exclude:
+- .git/
+- venv/
+- __pycache__/
+- Temporary files.
+- Unnecessary downloaded datasets.
+- Unnecessary model checkpoints.
+
+Verify that the ZIP opens correctly and contains all required files.
+
+# PHASE 10: GITHUB AND FINAL VERIFICATION
+
+Push the completed source code and documentation to the newly created GitHub repository.
+
+Verify:
+- Repository visibility.
+- Successful push.
+- Correct README rendering.
+- Correct source code.
+- No credentials or secrets committed.
+- No accidental virtual environment uploads.
+
+# EXECUTION RULES
+
+1. Work autonomously wherever possible.
+2. Do not stop after creating a plan.
+3. Execute actual terminal commands.
+4. Inspect errors and troubleshoot them.
+5. Do not fabricate successful executions.
+6. Do not replace actual simulation testing with theoretical explanations.
+7. Do not silently skip difficult scenarios.
+8. Preserve original NavRep code and attribution.
+9. Keep a log of important commands and modifications.
+10. Ask for my permission before destructive operations, privileged system changes, or actions that could overwrite existing work.
+11. If something is impossible in the current environment, explain the exact blocker and implement the best legitimate alternative.
+12. Prioritize completing the actual assignment over unnecessary enhancements.
+
+# FINAL REPORT
+
+When finished, provide:
+
+1. GitHub repository URL.
+2. Operating system and Python version used.
+3. Installation status.
+4. Number of existing scenarios identified and successfully tested.
+5. Number of existing scenario videos recorded.
+6. Number of custom scenarios implemented and tested.
+7. Number of custom scenario videos recorded.
+8. Testing summary.
+9. Location of README and other documentation.
+10. Location of the final ZIP file.
+11. Any incomplete tasks or limitations.
+
+Provide a clear PASS / FAIL / NOT COMPLETED status for every assignment requirement.
+
+SUCCESS CRITERION:
+
+The project is complete only when all three assignment tasks have been genuinely executed and their corresponding deliverables are available.
+
+Start by inspecting my environment and the official NavRep repository. Then execute the project phase by phase.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-15T19:41:34+05:30.
+
+The user has mentioned some items in the form @[ITEM]. Here is extra information about the items that were mentioned by the user, in the order that they appear:
+
+/goal is a [Slash Command]:
+The user has marked this task with /goal, indicating that this task is intended to run for a long time without user input, e.g. overnight. You should be extra thorough and only stop when you are confident the goal has been completely fulfilled. The system will force you to continue execution, prompting you to audit your work until completion. Once complete, include <!-- GOAL_COMPLETE --> in your response. If the user explicitly asked to stop or cancel this goal, include <!-- GOAL_CANCELLED --> in your response to cancel the goal.
+</ADDITIONAL_METADATA>
