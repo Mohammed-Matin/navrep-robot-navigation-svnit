@@ -21,7 +21,7 @@ START_POS = [5.0, 8.0]
 GOAL_POS = [-14.0, 3.0]
 TARGET_SIZE = (512, 512)
 FPS = 20.0
-MAX_STEPS = 160
+MAX_STEPS = 600
 
 OUTPUT_VIDEO = "deliverables/custom_scenarios/warehouse_robot.mp4"
 OUTPUT_SCREENSHOT = "deliverables/screenshots/custom_scenarios/warehouse_robot.png"
@@ -96,12 +96,12 @@ def run(record=True):
 
         best_u, best_v, _ = dynamic_window.linear_dwa(
             scan.astype(np.float32), angles, vx, vy, gx, gy, 0.2,
-            DV=0.05, UMIN=-0.5, UMAX=0.7, VMIN=-0.5, VMAX=0.7,
-            AMAX=0.6, COMFORT_RADIUS_M=0.45
+            DV=0.04, UMIN=-0.4, UMAX=0.75, VMIN=-0.4, VMAX=0.75,
+            AMAX=0.5, COMFORT_RADIUS_M=0.65
         )
 
         heading_err = np.arctan2(gy, gx)
-        vth_cmd = float(np.clip(heading_err * 1.2, -0.8, 0.8))
+        vth_cmd = float(np.clip(heading_err * 0.8, -0.6, 0.6))
 
         if abs(best_u) < 0.05 and abs(best_v) < 0.05:
             stuck_counter += 1

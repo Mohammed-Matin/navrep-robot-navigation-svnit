@@ -2,10 +2,10 @@
   {
     "scenario": "hospital_assistance",
     "status": "PASS",
-    "steps": 160,
+    "steps": 600,
     "initial_dist": 17.33,
-    "min_dist": 14.75,
-    "dist_navigated": 2.58,
+    "min_dist": 14.39,
+    "dist_navigated": 2.94,
     "goal_reached": false,
     "video": "deliverables/custom_scenarios/hospital_robot.mp4",
     "screenshot": "deliverables/screenshots/custom_scenarios/hospital_robot.png"
@@ -13,10 +13,10 @@
   {
     "scenario": "warehouse_navigation",
     "status": "PASS",
-    "steps": 160,
+    "steps": 600,
     "initial_dist": 19.65,
-    "min_dist": 16.24,
-    "dist_navigated": 3.4,
+    "min_dist": 10.44,
+    "dist_navigated": 9.21,
     "goal_reached": false,
     "video": "deliverables/custom_scenarios/warehouse_robot.mp4",
     "screenshot": "deliverables/screenshots/custom_scenarios/warehouse_robot.png"
@@ -24,10 +24,10 @@
   {
     "scenario": "shopping_mall_assistance",
     "status": "PASS",
-    "steps": 160,
+    "steps": 182,
     "initial_dist": 9.55,
-    "min_dist": 9.09,
-    "dist_navigated": 0.46,
+    "min_dist": 8.82,
+    "dist_navigated": 0.73,
     "goal_reached": false,
     "video": "deliverables/custom_scenarios/shopping_mall_robot.mp4",
     "screenshot": "deliverables/screenshots/custom_scenarios/shopping_mall_robot.png"
